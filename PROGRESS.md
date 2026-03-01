@@ -1,6 +1,10 @@
 # SlimePet Progress Log
 
 ## 2026-03-01
+- 버전 업데이트: `v0.0.1 -> v0.0.2`
+- `AGENTS.md` 작업 규칙 문서 추가
+- `SlimePet.py` 버전 상수 `APP_VERSION = "v0.0.2"` 반영
+- `README.md` Revision/Release Notes `v0.0.2` 반영
 - 프로젝트 버전 시작: `v0.0.1`
 - `SlimePet.py`에 버전 상수(`APP_VERSION`) 추가
 - 앱 시작 시 콘솔에 버전 표시 추가
