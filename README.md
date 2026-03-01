@@ -1,6 +1,6 @@
-# SlimePet v0.0.2 - Desktop Slime Pet
+# SlimePet v0.0.3 - Desktop Slime Pet
 > Written by maduinos
-> Rev. v0.0.2
+> Rev. v0.0.3
 
 ## Contents
 1. [Introduction](#1-introduction)
@@ -9,6 +9,7 @@
 4. [Quick Start Guide](#4-quick-start-guide)
 5. [Build Executable (PyInstaller)](#5-build-executable-pyinstaller)
 6. [Version Rule](#6-version-rule)
+7. [License](#7-license)
 
 ## 1. Introduction
 `SlimePet`는 데스크톱 위를 돌아다니는 간단한 슬라임 펫 앱입니다.
@@ -22,10 +23,16 @@
 ## 2. Revision History
 | Rev. | Date | Author | Description |
 | - | - | - | - |
+| v0.0.3 | 2026-03-01 | maduinos | Add GPL-3.0 license and update docs/version |
 | v0.0.2 | 2026-03-01 | maduinos | Add AGENTS.md and sync version bookkeeping |
 | v0.0.1 | 2026-03-01 | maduinos | Initial public version of SlimePet |
 
 ## 3. Release Notes
+### v0.0.3
+- 오픈소스 배포를 위한 `LICENSE`(GNU GPLv3) 파일 추가
+- `README.md`에 라이선스 안내 섹션 추가
+- 버전 상수 `APP_VERSION`를 `v0.0.3`으로 갱신
+
 ### v0.0.2
 - `AGENTS.md` 작업 규칙 문서 추가
 - 버전 상수 `APP_VERSION`를 `v0.0.2`로 갱신
@@ -78,3 +85,7 @@ cd SlimePet
 - 버전 상승 시 아래 3개를 함께 업데이트
   - `README.md`의 Revision/Release Notes
   - `PROGRESS.md` 로그
+
+## 7. License
+- 이 프로젝트는 `GNU General Public License v3.0 (GPL-3.0)`로 배포됩니다.
+- 자세한 내용은 저장소의 `LICENSE` 파일을 참고하세요.
