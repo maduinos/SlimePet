@@ -1,6 +1,6 @@
-# SlimePet v0.0.1 - Desktop Slime Pet
+# SlimePet v0.0.2 - Desktop Slime Pet
 > Written by maduinos
-> Rev. v0.0.1
+> Rev. v0.0.2
 
 ## Contents
 1. [Introduction](#1-introduction)
@@ -22,9 +22,15 @@
 ## 2. Revision History
 | Rev. | Date | Author | Description |
 | - | - | - | - |
+| v0.0.2 | 2026-03-01 | maduinos | Add AGENTS.md and sync version bookkeeping |
 | v0.0.1 | 2026-03-01 | maduinos | Initial public version of SlimePet |
 
 ## 3. Release Notes
+### v0.0.2
+- `AGENTS.md` 작업 규칙 문서 추가
+- 버전 상수 `APP_VERSION`를 `v0.0.2`로 갱신
+- `PROGRESS.md`/`README.md` 버전 기록 동기화
+
 ### v0.0.1
 - `SlimePet.py` 기본 동작 구현
 - 클릭 급식 / 드래그 이동 / 화면 랜덤 이동

@@ -6,6 +6,7 @@ from PyQt6.QtCore import Qt, QTimer, QPoint, QRect, QPointF
 from PyQt6.QtGui import QPainter, QColor, QPainterPath, QBrush, QPen, QScreen
 
 APP_NAME = "SlimePet"
+APP_VERSION = "v0.0.2"
 
 class SlimePet(QWidget):
     active_pets = []
