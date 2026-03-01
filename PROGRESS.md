@@ -1,6 +1,10 @@
 # SlimePet Progress Log
 
 ## 2026-03-01
+- 버전 업데이트: `v0.0.2 -> v0.0.3`
+- 오픈소스 배포용 `LICENSE`(GNU GPLv3) 파일 추가
+- `README.md` 라이선스 섹션 추가 및 버전 이력 반영
+- `SlimePet.py` 버전 상수 `APP_VERSION = "v0.0.3"` 반영
 - 버전 업데이트: `v0.0.1 -> v0.0.2`
 - `AGENTS.md` 작업 규칙 문서 추가
 - `SlimePet.py` 버전 상수 `APP_VERSION = "v0.0.2"` 반영
