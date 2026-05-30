@@ -1,5 +1,11 @@
 # SlimePet Progress Log
 
+## 2026-05-30
+- 버전 업데이트: `v0.0.3 -> v0.0.4`
+- `slimepet_core.py`에 앱 메타데이터와 좌표 보정 로직 분리
+- PyQt6 없이 실행 가능한 `tests/test_slimepet_core.py` 추가
+- `requirements.txt` 추가 및 README 실행/테스트 절차 보강
+
 ## 2026-03-01
 - 버전 업데이트: `v0.0.2 -> v0.0.3`
 - 오픈소스 배포용 `LICENSE`(GNU GPLv3) 파일 추가

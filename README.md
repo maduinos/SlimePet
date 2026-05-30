@@ -1,6 +1,9 @@
-# SlimePet v0.0.3 - Desktop Slime Pet
+# SlimePet v0.0.4 - Desktop Slime Pet
+
+[![Python Checks](https://github.com/maduinos/SlimePet/actions/workflows/python.yml/badge.svg)](https://github.com/maduinos/SlimePet/actions/workflows/python.yml)
+
 > Written by maduinos
-> Rev. v0.0.3
+> Rev. v0.0.4
 
 ## Contents
 1. [Introduction](#1-introduction)
@@ -23,11 +26,17 @@
 ## 2. Revision History
 | Rev. | Date | Author | Description |
 | - | - | - | - |
+| v0.0.4 | 2026-05-30 | Codex | Split testable core helpers, add unittest smoke tests, and document requirements |
 | v0.0.3 | 2026-03-01 | maduinos | Add GPL-3.0 license and update docs/version |
 | v0.0.2 | 2026-03-01 | maduinos | Add AGENTS.md and sync version bookkeeping |
 | v0.0.1 | 2026-03-01 | maduinos | Initial public version of SlimePet |
 
 ## 3. Release Notes
+### v0.0.4
+- `slimepet_core.py`에 앱 메타데이터와 좌표 보정 유틸리티를 분리
+- PyQt6 없이 실행 가능한 `unittest` 기반 smoke test 추가
+- `requirements.txt` 추가
+
 ### v0.0.3
 - 오픈소스 배포를 위한 `LICENSE`(GNU GPLv3) 파일 추가
 - `README.md`에 라이선스 안내 섹션 추가
@@ -51,6 +60,12 @@
 - `PyQt6`
 - `PyInstaller` (실행파일 빌드용)
 
+### Install dependencies
+```bash
+cd SlimePet
+python3 -m pip install -r requirements.txt
+```
+
 ### Run from source
 ```bash
 cd SlimePet
@@ -61,6 +76,12 @@ python3 SlimePet.py
 - `마우스 좌클릭`: 슬라임에게 먹이 주기 (배고픔/성장 리셋)
 - `좌클릭 드래그`: 슬라임 위치 이동
 - `슬라임 클릭 후 q`: 앱 종료
+
+### Tests
+```bash
+cd SlimePet
+python3 -m unittest discover -s tests -v
+```
 
 ## 5. Build Executable (PyInstaller)
 아이콘은 저장소에 포함된 `assets/SlimePet.ico`를 사용합니다.
