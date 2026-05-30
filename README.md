@@ -110,3 +110,9 @@ cd SlimePet
 ## 7. License
 - 이 프로젝트는 `GNU General Public License v3.0 (GPL-3.0)`로 배포됩니다.
 - 자세한 내용은 저장소의 `LICENSE` 파일을 참고하세요.
+
+## 8. Project Management
+- 변경 이력: `CHANGELOG.md`
+- 지원 범위: `SUPPORT.md`
+- 기여 가이드: `CONTRIBUTING.md`
+- 보안/비공개 데이터 신고: `SECURITY.md`
