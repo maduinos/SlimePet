@@ -5,8 +5,7 @@ from PyQt6.QtWidgets import QApplication, QWidget
 from PyQt6.QtCore import Qt, QTimer, QPoint, QRect, QPointF
 from PyQt6.QtGui import QPainter, QColor, QPainterPath, QBrush, QPen, QScreen
 
-APP_NAME = "SlimePet"
-APP_VERSION = "v0.0.3"
+from slimepet_core import APP_NAME, APP_VERSION, clamp_position
 
 class SlimePet(QWidget):
     active_pets = []
@@ -114,8 +113,7 @@ class SlimePet(QWidget):
         ]
         chosen = random.choice(candidate_positions)
 
-        clone_x = min(max(0, chosen.x()), max_x)
-        clone_y = min(max(0, chosen.y()), max_y)
+        clone_x, clone_y = clamp_position(chosen.x(), chosen.y(), max_x, max_y)
         clone = SlimePet(start_pos=QPointF(clone_x, clone_y))
         clone.show()
 
