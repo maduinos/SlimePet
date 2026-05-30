@@ -113,6 +113,7 @@ cd SlimePet
 
 ## 8. Project Management
 - 변경 이력: `CHANGELOG.md`
+- 릴리스 절차: `RELEASE.md`
 - 지원 범위: `SUPPORT.md`
 - 기여 가이드: `CONTRIBUTING.md`
 - 보안/비공개 데이터 신고: `SECURITY.md`
