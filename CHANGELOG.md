@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.0.5 - 2026-05-30
+
+- Hardened `clamp_position()` against negative maximum bounds.
+- Added regression coverage for defensive coordinate clamping.
+
 ## v0.0.4 - 2026-05-30
 
 - Split testable metadata and position helpers into `slimepet_core.py`.
@@ -17,4 +22,3 @@
 ## v0.0.1 - 2026-03-01
 
 - Initial public version of SlimePet.
-

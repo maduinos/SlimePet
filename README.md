@@ -1,9 +1,9 @@
-# SlimePet v0.0.4 - Desktop Slime Pet
+# SlimePet v0.0.5 - Desktop Slime Pet
 
 [![Python Checks](https://github.com/maduinos/SlimePet/actions/workflows/python.yml/badge.svg)](https://github.com/maduinos/SlimePet/actions/workflows/python.yml)
 
 > Written by maduinos
-> Rev. v0.0.4
+> Rev. v0.0.5
 
 ## Contents
 1. [Introduction](#1-introduction)
@@ -26,12 +26,17 @@
 ## 2. Revision History
 | Rev. | Date | Author | Description |
 | - | - | - | - |
+| v0.0.5 | 2026-05-30 | Codex | Harden clamp_position for negative screen bounds |
 | v0.0.4 | 2026-05-30 | Codex | Split testable core helpers, add unittest smoke tests, and document requirements |
 | v0.0.3 | 2026-03-01 | maduinos | Add GPL-3.0 license and update docs/version |
 | v0.0.2 | 2026-03-01 | maduinos | Add AGENTS.md and sync version bookkeeping |
 | v0.0.1 | 2026-03-01 | maduinos | Initial public version of SlimePet |
 
 ## 3. Release Notes
+### v0.0.5
+- `clamp_position()`이 음수 최대 경계를 0으로 처리하도록 보강
+- 좌표 보정 회귀 테스트 추가
+
 ### v0.0.4
 - `slimepet_core.py`에 앱 메타데이터와 좌표 보정 유틸리티를 분리
 - PyQt6 없이 실행 가능한 `unittest` 기반 smoke test 추가
