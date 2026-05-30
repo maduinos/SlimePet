@@ -3,11 +3,9 @@
 ## 2026-05-30
 - 버전 업데이트: `v0.0.4 -> v0.0.5`
 - `clamp_position()`이 음수 최대 경계를 0으로 처리하도록 보강
-- 좌표 보정 회귀 테스트 추가
 - 버전 업데이트: `v0.0.3 -> v0.0.4`
 - `slimepet_core.py`에 앱 메타데이터와 좌표 보정 로직 분리
-- PyQt6 없이 실행 가능한 `tests/test_slimepet_core.py` 추가
-- `requirements.txt` 추가 및 README 실행/테스트 절차 보강
+- `requirements.txt` 추가 및 README 실행 절차 보강
 
 ## 2026-03-01
 - 버전 업데이트: `v0.0.2 -> v0.0.3`

@@ -1,7 +1,5 @@
 # SlimePet v0.0.5 - 데스크톱 슬라임 펫
 
-[![Python Checks](https://github.com/maduinos/SlimePet/actions/workflows/python.yml/badge.svg)](https://github.com/maduinos/SlimePet/actions/workflows/python.yml)
-
 > 작성자: maduinos
 > Rev. v0.0.5
 
@@ -27,7 +25,7 @@
 | Rev. | 날짜 | 작성자 | 설명 |
 | - | - | - | - |
 | v0.0.5 | 2026-05-30 | Codex | 음수 화면 경계를 안전하게 처리하도록 `clamp_position()` 보강 |
-| v0.0.4 | 2026-05-30 | Codex | 테스트 가능한 core helper 분리, unittest smoke test와 requirements 문서 추가 |
+| v0.0.4 | 2026-05-30 | Codex | core helper 분리와 requirements 문서 추가 |
 | v0.0.3 | 2026-03-01 | maduinos | GPL-3.0 license 추가 및 문서/버전 갱신 |
 | v0.0.2 | 2026-03-01 | maduinos | AGENTS.md 추가 및 버전 기록 동기화 |
 | v0.0.1 | 2026-03-01 | maduinos | SlimePet 최초 공개 버전 |
@@ -35,11 +33,9 @@
 ## 3. 릴리스 노트
 ### v0.0.5
 - `clamp_position()`이 음수 최대 경계를 0으로 처리하도록 보강
-- 좌표 보정 회귀 테스트 추가
 
 ### v0.0.4
 - `slimepet_core.py`에 앱 메타데이터와 좌표 보정 유틸리티를 분리
-- PyQt6 없이 실행 가능한 `unittest` 기반 smoke test 추가
 - `requirements.txt` 추가
 
 ### v0.0.3
@@ -81,12 +77,6 @@ python3 SlimePet.py
 - `마우스 좌클릭`: 슬라임에게 먹이 주기 (배고픔/성장 리셋)
 - `좌클릭 드래그`: 슬라임 위치 이동
 - `슬라임 클릭 후 q`: 앱 종료
-
-### 테스트
-```bash
-cd SlimePet
-python3 -m unittest discover -s tests -v
-```
 
 ## 5. 실행 파일 빌드 PyInstaller
 아이콘은 저장소에 포함된 `assets/SlimePet.ico`를 사용합니다.
