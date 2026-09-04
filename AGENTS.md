@@ -1,3 +1,7 @@
+> 만든 사람: maduinos<br>
+> 문서 만든 날짜: 2026-03-01<br>
+> https://maduinos.blogspot.com/
+
 # AGENTS.md
 
 ## Python 기본 작업 규칙
